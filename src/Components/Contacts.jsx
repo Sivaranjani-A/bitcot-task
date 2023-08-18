@@ -119,6 +119,7 @@ function Contacts() {
       address: isEditData.address || "",
     },
     validationSchema: ValidationSchema,
+    enableReinitialize: true,
 
     onSubmit: async (values) => {
       const id = parseInt(window.localStorage.getItem("editcontactid"));
