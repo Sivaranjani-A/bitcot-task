@@ -118,7 +118,7 @@ function Contacts() {
       mobile: isEditData.mobile || "",
       address: isEditData.address || "",
     },
-    validationSchema: ValidationSchema,
+    // validationSchema: ValidationSchema,
     enableReinitialize: true,
 
     onSubmit: async (values) => {
